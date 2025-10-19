@@ -1,0 +1,8 @@
+{
+  "last_completed_index": 141,
+  "total_anomalous_windows": 99,
+  "total_normal_windows": 185,
+  "timestamp": "2025-06-21T09:18:36.893970",
+  "base_directory": "anomaly_llava_test_dataset_20250621_090751",
+  "series_directory": "anomaly_llava_test_dataset_20250621_090751/series"
+}

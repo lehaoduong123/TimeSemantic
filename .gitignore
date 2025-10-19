@@ -1,0 +1,6 @@
+experiments/logs/
+experiments/checkpoints/
+__pycache__/
+env_template.txt
+src/models/AXIS/AXIS_main.py
+.env
