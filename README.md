@@ -70,6 +70,22 @@ CUDA_VISIBLE_DEVICES=1
 DIST_PORT=12355
 ```
 
+### 4. Download and extract model checkpoints
+
+Download the pre-trained model checkpoints from Hugging Face:
+
+```bash
+huggingface-cli download thu-sail-lab/TimeSemantic checkpoints.zip --local-dir ./experiments
+```
+
+Extract the downloaded checkpoint file:
+
+```bash
+cd experiments
+unzip checkpoints.zip
+cd ..
+```
+
 ## Usage
 
 ### Run Testing and Generate Results
